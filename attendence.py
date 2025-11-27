@@ -1,3 +1,4 @@
+import sys
 if len(sys.argv) != 3:
     print("Usage: python attendance_tracker.py <classes_held> <classes_attended>")
     sys.exit(1)
